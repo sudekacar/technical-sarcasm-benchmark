@@ -78,7 +78,7 @@ The results show a significant **-30% to -50% drop** in accuracy when models tra
 
 -----
 
-## 👤 Author
+## Author 👤
 
 **[Sude Yaren Kacar]**
 
