@@ -40,7 +40,7 @@ Standard benchmarks often overlook "social blindness" in AI. TPSR identifies spe
 
 Graphical performance analysis of the Models:
 
-*images.png*
+![Evaluation Results](./images.png)
 
 -----
 
