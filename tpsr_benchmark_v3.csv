@@ -1,0 +1,101 @@
+id,text,literal_target,intent_target,type,difficulty
+1,Junior: 'I pushed directly to production.' Senior: 'Fantastic. Who needs testing anyway?',Testing is unnecessary,sarcastic,sarcasm,easy
+2,Dev: 'I hardcoded the API key.' Lead: 'Brilliant move. Security is overrated.',Security is not important,sarcastic,sarcasm,easy
+3,"Intern: 'I deleted the error log to fix it.' Manager: 'Wow, that is one way to solve it.'",The solution is creative,sarcastic,passive-aggressive,medium
+4,"A: 'The app crashes every time.' B: 'Occasionally meaning every time, right?'",The app crashes sometimes,sarcastic,sarcasm,easy
+5,"Junior: 'I optimized the query by 80%.' Senior: 'Great work, big improvement.'",Performance increased,genuine,genuine,easy
+6,Colleague: 'I skipped docs to move faster.' Senior: 'Future devs will love you.',Successors will be happy,sarcastic,sarcasm,medium
+7,Dev: 'I did not consider edge cases.' Lead: 'That explains a lot.',Logical explanation exists,sarcastic,subtle-criticism,hard
+8,Junior: 'Works on my machine.' Senior: 'Perfect. Let us deploy it everywhere.',Local success is enough,sarcastic,sarcasm,easy
+9,Lead: 'This PR is... interesting.',The code is interesting,sarcastic,ambiguous,hard
+10,Dev: 'I did not check performance.' Lead: 'Users love slow apps.',Slow apps are popular,sarcastic,sarcasm,easy
+11,"A: 'I implemented the caching.' B: 'Impressive, load times are down.'",Cache is working,genuine,genuine,easy
+12,A: 'I used a nested ternary for 5 conditions.' B: 'Beautiful. It is like a riddle for future me.',The code is beautiful,sarcastic,sarcasm,medium
+13,A: 'Documentation is just one line: Good luck.' B: 'I love a good mystery at work.',B enjoys mysteries,sarcastic,sarcasm,medium
+14,A: 'I manually edited the prod DB.' B: 'Living on the edge. Who needs backups?',Backups are unnecessary,sarcastic,sarcasm,easy
+15,A: 'The API returns 200 OK even when it fails.' B: 'Optimism is a great quality.',Optimism is good,sarcastic,irony,medium
+16,"A: 'I commented out the failing tests.' B: 'No red light, no problem.'",The problem is gone,sarcastic,sarcasm,easy
+17,"Lead: 'I reviewed your PR, logic is clean.' Dev: 'Thank you!'",Code is clean,genuine,genuine,easy
+18,A: 'I fixed the typo in the header.' B: 'Thanks for the quick catch.',Typo is gone,genuine,genuine,easy
+19,A: 'I refactored the legacy code.' B: 'This is much more maintainable.',Code is updated,genuine,genuine,medium
+20,"Dev: 'I added dark mode.' User: 'Finally, my eyes are saved!'",Visual change,genuine,genuine,easy
+21,Manager: 'Sprint done early.' Team: 'That is a rare win!',Timeline success,genuine,genuine,medium
+22,Dev: 'I simplified auth.' Senior: 'I like this approach.',Auth is simpler,genuine,genuine,easy
+23,Senior: 'I see you used a global variable here.',Observation of a variable,sarcastic,subtle-criticism,hard
+24,Dev: 'I used ChatGPT for the whole module.' Senior: 'I can tell.',Senior knows the source,sarcastic,subtle-sarcasm,hard
+25,Junior: 'I rewrote the whole logic.' Senior: 'Bold move.',Junior was brave,sarcastic,ambiguous,hard
+26,A: 'The script takes 2 hours to run.' B: 'At least it finishes.',Script completes,sarcastic,passive-aggressive,medium
+27,A: 'I fixed the bug.' B: 'Which one? You created three more.',Bug count mentioned,sarcastic,direct-criticism,medium
+28,Dev: 'I used Python for this low-latency task.' C: 'Interesting choice.',A choice was made,sarcastic,subtle-criticism,hard
+29,A: 'The meeting lasted 4 hours.' B: 'How productive.',Meeting was productive,sarcastic,sarcasm,easy
+30,Intern: 'I used a 2000-line function.' Senior: 'Clean code at its best.',Code is high quality,sarcastic,sarcasm,medium
+31,Lead: 'The demo worked!' Dev: 'It is a miracle.',Success happened,sarcastic,irony,medium
+32,A: 'I found a bug in your CSS.' B: 'It is a feature.',Intentional design,sarcastic,irony,easy
+33,A: 'The server is down again.' B: 'Business as usual.',Routine occurrence,sarcastic,cynicism,medium
+34,Junior: 'I learned Kubernetes in a day.' Senior: 'Sure you did.',Learning happened,sarcastic,sarcasm,medium
+35,Manager: 'We need this by Monday.' Dev: 'I will just cancel my weekend.',Schedule change,sarcastic,sarcasm,medium
+36,A: 'I wrote a custom framework.' B: 'Exactly what the world needed.',New framework created,sarcastic,sarcasm,hard
+37,A: 'I refactored the auth.' B: 'Now nothing works. Great job.',Work completed,sarcastic,sarcasm,easy
+38,"A: 'The docs are in the code.' B: 'Ah, the invisible documentation method.'",Code is the docs,sarcastic,sarcasm,medium
+39,"A: 'I use Vim.' B: 'We get it, you are a hacker.'",Tool preference,sarcastic,friendly-sarcasm,medium
+40,Lead: 'Why is the DB locked?' Dev: 'I was just running a small select.',Small query,sarcastic,irony,hard
+41,A: 'I added 50 dependencies.' B: 'The bundle size must be tiny now.',Dependencies added,sarcastic,sarcasm,easy
+42,Junior: 'I used try-except: pass everywhere.' Senior: 'Ignorance is bliss.',Errors are ignored,sarcastic,sarcasm,medium
+43,A: 'The UI is a bit... retro.',Old style,sarcastic,subtle,hard
+44,Dev: 'I fixed it without a restart.' Lead: 'You are a wizard.',Fix worked,genuine,genuine,easy
+45,A: 'I automated the boring stuff.' B: 'Now you are bored more efficiently.',Automation success,sarcastic,irony,medium
+46,Lead: 'The build is green.' Team: 'Finally.',Tests passed,genuine,genuine,medium
+47,A: 'I used a regex for this.' B: 'Now you have two problems.',Problem count,sarcastic,irony,medium
+48,Dev: 'The site is down.' Admin: 'I am aware. It is a scheduled disaster.',Planned event,sarcastic,cynicism,medium
+49,A: 'I wrote 100 tests.' B: 'And they all pass by default?',Tests pass,sarcastic,subtle-criticism,hard
+50,A: 'I manually minified the JS.' B: 'A true artisan.',Manual work,sarcastic,sarcasm,medium
+51,Dev: 'I wrote a 500-line single function.' Senior: 'DRY principle must be so proud of you.',The principle is satisfied,sarcastic,sarcasm,medium
+52,"DevOps: 'I shut down the servers during peak hours.' Lead: 'Perfect timing, I wanted a stress test anyway.'",The timing was good,sarcastic,irony,easy
+53,"Junior: 'I pushed 100 files with a commit message ""fix"".' Senior: 'Your documentation skills are legendary.'",Skills are high quality,sarcastic,sarcasm,medium
+54,Designer: 'I used 15 different border-radius values.' Dev: 'A breath of fresh air for consistency.',Design is consistent,sarcastic,irony,medium
+55,Lead: 'Storing passwords in plaintext?' Dev: 'I just wanted to make it easier for the hackers.',Helping hackers is good,sarcastic,irony,easy
+56,"Junior: 'The app rebuilds every 2 seconds.' Senior: 'Great, my phone needed a heater for the winter.'",Heating feature is useful,sarcastic,sarcasm,easy
+57,Reviewer: 'Using four verbs in one endpoint name is a linguistic masterpiece.',Endpoint name is good,sarcastic,subtle-criticism,hard
+58,Lead: 'Unit tests just returning true?' Junior: 'I wanted to bring honesty to the codebase.',Junior is being honest,sarcastic,irony,medium
+59,Manager: 'Changing features 2 hours before the deadline?' Dev: 'I didn't know you were such an adrenaline junkie.',Manager loves adrenaline,sarcastic,passive-aggressive,hard
+60,Dev: 'I used SELECT * on the entire database.' Lead: 'Your trust in our hardware is truly touching.',Trust is emotional,sarcastic,subtle-criticism,hard
+61,"A: 'I added Redux, Saga, and 5 libraries for a single toggle.' B: 'Over-engineering is an understatement.'",Evaluation of complexity,sarcastic,direct-criticism,medium
+62,Junior: 'I deleted the README.' Senior: 'I love a good mystery-based onboarding.',Onboarding is fun,sarcastic,sarcasm,medium
+63,"Lead: 'This legacy code is 20 years old.' Dev: 'It belongs in a museum, not a repo.'",Code is historical,sarcastic,irony,medium
+64,A: 'I used a 10-level deep nested loop.' B: 'The CPU is going to enjoy this vacation.',CPU will rest,sarcastic,irony,easy
+65,"Dev: 'I didn't write any comments.' Lead: 'Of course, the code is self-explanatory... to a psychic.'",Code is clear,sarcastic,sarcasm,medium
+66,Junior: 'I renamed all variables to single letters.' Senior: 'A true minimalist.',Junior is an artist,sarcastic,sarcasm,easy
+67,A: 'The site loads in 30 seconds.' B: 'At least it gives users time to reflect on life.',Users can think,sarcastic,cynicism,medium
+68,Lead: 'We have 0% test coverage.' Manager: 'I like to live dangerously.',Risk taking is good,sarcastic,irony,easy
+69,Dev: 'I ignored the linter warnings.' Senior: 'Rules are for people without your talent.',Dev is very talented,sarcastic,sarcasm,hard
+70,"A: 'I hardcoded the database credentials.' B: 'Security through transparency, I see.'",Transparency is a strategy,sarcastic,irony,hard
+71,Junior: 'I fixed the bug by restarting the server.' Senior: 'Engineering at its finest.',High quality work,sarcastic,sarcasm,easy
+72,A: 'The CSS is 5000 lines in one file.' B: 'A literal wall of art.',Code is art,sarcastic,sarcasm,medium
+73,Lead: 'The production is down.' Intern: 'But it worked on my local Docker.',Local success matters,genuine,genuine,medium
+74,Dev: 'I used a regex to parse HTML.' Senior: 'Welcome to your new nightmare.',Future is scary,sarcastic,irony,medium
+75,"A: 'I didn't use any version control.' B: 'Living like it's 1985, I respect that.'",Respect for history,sarcastic,sarcasm,easy
+76,Junior: 'I found this code on a 10-year-old forum.' Senior: 'What could go wrong?',Safety is certain,sarcastic,irony,easy
+77,Lead: 'The API response is 50MB.' Dev: 'We value data richness.',Data is valuable,sarcastic,subtle-criticism,hard
+78,A: 'I use spaces instead of tabs.' B: 'We can't be friends anymore.',Friendship ended,sarcastic,friendly-sarcasm,easy
+79,Dev: 'I added a sleep(5000) to fix the race condition.' Senior: 'Modern problems require modern solutions.',Effective solution,sarcastic,sarcasm,medium
+80,Manager: 'We need to scale to 1 million users by tomorrow.' Dev: 'I'll just buy a faster mouse.',Scaling strategy,sarcastic,irony,easy
+81,A: 'The code is 90% comments.' B: 'I've always wanted to read a novel in a code editor.',B likes reading,sarcastic,sarcasm,medium
+82,Junior: 'I use the same password for all environments.' Senior: 'Consistency is key.',Consistency is good,sarcastic,sarcasm,easy
+83,"Lead: 'Your variable names are 'a', 'b', and 'c'.' Dev: 'I'm keeping it concise.'",Code is brief,sarcastic,subtle-criticism,hard
+84,A: 'The laptop is burning.' B: 'That's how you know the code is efficient.',Heat means efficiency,sarcastic,irony,easy
+85,Dev: 'I merged without a review.' Lead: 'I too enjoy surprises in production.',Lead likes surprises,sarcastic,sarcasm,medium
+86,Junior: 'I optimized the Hello World.' Senior: 'We finally solved the industry's biggest bottleneck.',Bottleneck is gone,sarcastic,irony,medium
+87,A: 'I used a deprecated library.' B: 'Vintage software is so trendy right now.',Old software is cool,sarcastic,sarcasm,easy
+88,Lead: 'Why is there a Bitcoin miner in the repo?' Dev: 'It's a diversified revenue stream.',Revenue strategy,sarcastic,irony,hard
+89,A: 'I wrote the whole backend in Bash.' B: 'Because life wasn't difficult enough.',Life is easy,sarcastic,irony,medium
+90,Junior: 'I forgot to add a WHERE clause to the DELETE.' Senior: 'The database needed a fresh start.',Fresh start is good,sarcastic,sarcasm,medium
+91,Lead: 'The build is failing for 3 days.' Dev: 'I thought it was a new festive red theme.',Design choice,sarcastic,irony,medium
+92,A: 'I manually copied the files to the server.' B: 'CI/CD is so mainstream anyway.',Rejecting trends,sarcastic,sarcasm,medium
+93,Dev: 'I'm using a 4K monitor for terminal.' Lead: 'Now you can see your bugs in ultra high definition.',Bugs are clearer,sarcastic,friendly-sarcasm,medium
+94,Junior: 'I am a full-stack developer after two weeks.' Senior: 'The confidence of youth is a beautiful thing.',Confidence is good,sarcastic,subtle-criticism,hard
+95,A: 'I use Notepad for coding.' B: 'Real hackers don't need syntax highlighting.',B is a hacker,sarcastic,sarcasm,easy
+96,Lead: 'Your documentation is just a link to StackOverflow.' Dev: 'Why reinvent the wheel?',Efficiency,sarcastic,subtle-criticism,hard
+97,A: 'I implement features on production.' B: 'Testing in production is the ultimate bravery.',Bravery,sarcastic,irony,medium
+98,"Junior: 'I disabled the firewall to fix the connection.' Senior: 'Brilliant, the door is now open for everyone.'",Access is open,sarcastic,sarcasm,easy
+99,Dev: 'The site is 100MB.' Lead: 'Users have high-speed internet for a reason.',Internet is fast,sarcastic,passive-aggressive,medium
+100,"A: 'I solved the bug with a global try-catch.' B: 'Sweeping problems under the rug, a classic move.'",Classic move,sarcastic,sarcasm,medium
